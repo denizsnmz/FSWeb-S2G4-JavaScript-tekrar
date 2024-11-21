@@ -115,7 +115,13 @@ for (let i = 1; i < sayilar.length; i++) {
 
 // 3b çözümü:
 
-/* kodlar buraya */
+let uceTamBolunenler = [];
+
+sayilar.forEach(function(sayi) {
+  if (sayi % 3 === 0) {
+    ucetambolunenler.push(sayi);
+  }
+});
 
 // 3c çözümü:
 
